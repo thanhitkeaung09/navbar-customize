@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/brand.png" />
+
+    <!-- Primary Meta Tags -->
+    <title>Space</title>
+    <meta name="title" content="Space" />
+    <meta name="description" content="Space Landing page " />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mms-it.com/" />
+    <meta property="og:title" content="Space" />
+    <meta property="og:description" content="Space Landing page " />
+    <meta property="og:image" content="/images/brand.png" />
+  </head>
+  <body>
+    <section class="bg-success" id="header">
+      <nav class="navbar navbar-light px-2 py-3 myNav bg-white">
+        <div class="container align-items-center">
+          <div class="">
+            <img src="images/logo.svg" alt="space logo" />
+          </div>
+
+          <nav class="d-lg-block d-none ms-auto pe-5 py-1 border-right">
+            <ul
+              class="d-flex justify-content-lg-center gap-5 list-unstyled mb-0"
+            >
+              <li>
+                <a class="main-nav-link" href="#">Landings</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Pages</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Blog</a>
+              </li>
+              <li>
+                <a class="main-nav-link" href="#">Docs</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="d-flex gap-2 ms-2">
+            <button
+              class="btn px-3 py-2-5 text-secondary loginBtn navCBtn d-none d-lg-block"
+            >
+              Log in
+            </button>
+            <button
+              class="btn btn-info px-3 py-2-5 text-white btnNav navCBtn d-none d-lg-block"
+            >
+              <i class="bi bi-person-circle me-1"></i>
+              Sign up
+            </button>
+
+            <!-- mobile nav opener -->
+            <button class="d-block d-lg-none btn-mobile">
+              <span class="humburger-top"></span>
+              <span class="humburger-middle"></span>
+              <span class="humburger-bottom"></span>
+            </button>
+
+            <!-- mobile nav -->
+
+            <div
+              class="mobile-nav position-absolute bg-body rounded-1 shadow-lg d-lg-none d-block"
+            >
+              <ul
+                class="d-flex flex-column align-items-center justify-content-center gap-4 list-unstyled mb-0"
+              >
+                <li>
+                  <a class="main-nav-link fw-bolder" href="#">Landings</a>
+                </li>
+                <li>
+                  <a class="main-nav-link fw-bolder" href="#">Pages</a>
+                </li>
+                <li>
+                  <a class="main-nav-link fw-bolder" href="#">Blog</a>
+                </li>
+                <li>
+                  <a class="main-nav-link fw-bolder" href="#">Docs</a>
+                </li>
+              </ul>
+              <hr class="bg-info my-4" />
+              <div class="d-flex flex-column align-items-center gap-4">
+                <button class="btn px-3 py-2-5 text-secondary loginBtn navCBtn">
+                  Log in
+                </button>
+                <button
+                  class="btn btn-info px-3 py-2-5 text-white btnNav navCBtn w-100"
+                >
+                  <i class="bi bi-person-circle me-1"></i>
+                  Sign up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
